@@ -1,0 +1,282 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Prem Shinde - Software Engineer portfolio featuring projects, skills, certificates, and contact information."
+    />
+    <meta name="theme-color" content="#0D1117" />
+    <title>Prem Shinde | Software Engineer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="scroll-progress" id="scroll-progress" aria-hidden="true"></div>
+
+    <header class="site-header" id="site-header">
+      <nav class="nav container" aria-label="Main Navigation">
+        <a class="brand mono" href="#home" aria-label="Prem Shinde Home">Prem Shinde</a>
+
+        <button
+          class="menu-toggle"
+          id="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Toggle menu"
+        >
+          <span></span><span></span><span></span>
+        </button>
+
+        <ul class="nav-links" id="primary-nav">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certificates" class="nav-link">Certificates</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="section hero container reveal" data-reveal>
+        <p class="section-kicker mono">Software Engineer Portfolio</p>
+        <h1 class="hero-title mono">
+          Prem Shinde <span class="cursor-blink" aria-hidden="true">_</span>
+        </h1>
+        <p class="hero-role mono">Software Engineer</p>
+        <p class="hero-intro">
+          Final year Computer Engineering student focused on building reliable software,
+          clean user interfaces, and practical solutions using modern web and data tools.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary ripple" href="src/assests/Prem_Gokul_Shinde_Resume.pdf" download>
+            Download Resume
+          </a>
+          <a class="btn btn-secondary ripple" href="#contact">Contact</a>
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <div class="section-head reveal" data-reveal>
+          <h2 class="section-title mono">About</h2>
+        </div>
+        <article class="about-card reveal" data-reveal>
+          <p>
+            I am a <strong>Final Year Computer Engineering Student</strong> passionate about
+            <strong>Software Development</strong> and solving real problems with thoughtful,
+            scalable code. I enjoy learning deeply and building purposeful solutions across
+            <strong>AI, Web Development, and Databases</strong>.
+          </p>
+        </article>
+      </section>
+
+      <section id="skills" class="section container">
+        <div class="section-head reveal" data-reveal>
+          <h2 class="section-title mono">Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+          <article class="skill-card reveal" data-reveal data-delay="0">
+            <h3 class="mono">Programming Languages</h3>
+            <div class="tag-group">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">SQL (Learning)</span>
+              <span class="skill-tag">Java</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal" data-reveal data-delay="1">
+            <h3 class="mono">Web</h3>
+            <div class="tag-group">
+              <span class="skill-tag">HTML</span>
+              <span class="skill-tag">CSS</span>
+              <span class="skill-tag">JavaScript</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal" data-reveal data-delay="2">
+            <h3 class="mono">Database</h3>
+            <div class="tag-group">
+              <span class="skill-tag">MySQL</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal" data-reveal data-delay="3">
+            <h3 class="mono">Tools</h3>
+            <div class="tag-group">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">VS Code</span>
+            </div>
+          </article>
+
+          <article class="skill-card reveal" data-reveal data-delay="4">
+            <h3 class="mono">Cloud / AI</h3>
+            <div class="tag-group">
+              <span class="skill-tag">AWS (Basic)</span>
+              <span class="skill-tag">Gemini</span>
+              <span class="skill-tag">Machine Learning</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <div class="section-head reveal" data-reveal>
+          <h2 class="section-title mono">Projects</h2>
+          <p class="section-description">
+            Here are some of the projects I've built to solve real-world problems and strengthen
+            my software engineering skills. Each project reflects my focus on writing clean code,
+            learning modern technologies, and building practical solutions.
+          </p>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal" data-reveal>
+            <div class="project-image" role="img" aria-label="Gym Website preview placeholder">
+              <span class="mono">Gym Website</span>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3 class="mono">Gym Website</h3>
+                <span class="badge mono">Web App</span>
+              </div>
+              <p>
+                A responsive fitness website featuring plans, trainer highlights, and inquiry flow,
+                designed for strong mobile usability and clear conversion paths.
+              </p>
+              <p class="tech mono">HTML • CSS • JavaScript</p>
+              <div class="project-actions">
+                <a class="btn btn-small btn-secondary ripple" href="https://github.com/shindeprem160205" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn btn-small btn-primary ripple" href="#" aria-label="Open live demo for Gym Website">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-reveal>
+            <div class="project-image" role="img" aria-label="Beauty Parlour Website preview placeholder">
+              <span class="mono">Beauty Parlour</span>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3 class="mono">Beauty Parlour Website</h3>
+                <span class="badge mono">Business Site</span>
+              </div>
+              <p>
+                A premium service-focused website with clean navigation, service sections, and
+                polished layouts to improve online visibility for local businesses.
+              </p>
+              <p class="tech mono">HTML • CSS • JavaScript</p>
+              <div class="project-actions">
+                <a class="btn btn-small btn-secondary ripple" href="https://github.com/shindeprem160205" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn btn-small btn-primary ripple" href="#" aria-label="Open live demo for Beauty Parlour Website">Live Demo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-reveal>
+            <div class="project-image" role="img" aria-label="Agency Landing Page preview placeholder">
+              <span class="mono">Agency Landing</span>
+            </div>
+            <div class="project-body">
+              <div class="project-top">
+                <h3 class="mono">Agency Landing Page</h3>
+                <span class="badge mono">Landing Page</span>
+              </div>
+              <p>
+                A conversion-oriented landing page built with clear hierarchy, focused messaging,
+                and smooth interactions to support campaign performance.
+              </p>
+              <p class="tech mono">HTML • CSS • JavaScript</p>
+              <div class="project-actions">
+                <a class="btn btn-small btn-secondary ripple" href="https://github.com/shindeprem160205" target="_blank" rel="noopener">GitHub</a>
+                <a class="btn btn-small btn-primary ripple" href="#" aria-label="Open live demo for Agency Landing Page">Live Demo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="certificates" class="section container">
+        <div class="section-head reveal" data-reveal>
+          <h2 class="section-title mono">Certificates</h2>
+        </div>
+
+        <div class="certificate-list">
+          <article class="certificate-card reveal" data-reveal>
+            <div class="certificate-icon mono" aria-hidden="true">01</div>
+            <div class="certificate-info">
+              <h3 class="mono">Python for Data Science</h3>
+              <p>Issued by Coursera</p>
+            </div>
+            <a class="btn btn-small btn-secondary ripple" href="#" aria-label="View Python for Data Science certificate">View Certificate</a>
+          </article>
+
+          <article class="certificate-card reveal" data-reveal>
+            <div class="certificate-icon mono" aria-hidden="true">02</div>
+            <div class="certificate-info">
+              <h3 class="mono">Web Development Fundamentals</h3>
+              <p>Issued by Udemy</p>
+            </div>
+            <a class="btn btn-small btn-secondary ripple" href="#" aria-label="View Web Development Fundamentals certificate">View Certificate</a>
+          </article>
+
+          <article class="certificate-card reveal" data-reveal>
+            <div class="certificate-icon mono" aria-hidden="true">03</div>
+            <div class="certificate-info">
+              <h3 class="mono">SQL and Database Essentials</h3>
+              <p>Issued by Infosys Springboard</p>
+            </div>
+            <a class="btn btn-small btn-secondary ripple" href="#" aria-label="View SQL and Database Essentials certificate">View Certificate</a>
+          </article>
+        </div>
+      </section>
+
+      <section id="resume" class="section container">
+        <div class="resume-card reveal" data-reveal>
+          <h2 class="section-title mono">Resume</h2>
+          <a class="btn btn-primary ripple" href="src/assests/Prem_Gokul_Shinde_Resume.pdf" download>
+            <span class="pdf-icon" aria-hidden="true">PDF</span>
+            Download Resume
+          </a>
+        </div>
+      </section>
+
+      <section id="contact" class="section container">
+        <div class="section-head reveal" data-reveal>
+          <h2 class="section-title mono">Let's Connect</h2>
+          <p class="section-description">
+            Open to internships, full-time opportunities, and collaborative engineering projects.
+          </p>
+        </div>
+
+        <div class="contact-actions reveal" data-reveal>
+          <a class="btn btn-secondary ripple" href="https://github.com/shindeprem160205" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn btn-secondary ripple" href="https://linkedin.com/in/prem-shinde-407170245/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn btn-secondary ripple" href="mailto:shindeprem187@gmail.com">Email</a>
+          <a class="btn btn-secondary ripple" href="tel:+919999999999">Phone</a>
+        </div>
+      </section>
+    </main>
+
+    <button class="back-to-top ripple" id="back-to-top" aria-label="Back to top">↑</button>
+
+    <footer class="site-footer">
+      <p class="mono">Designed &amp; Developed by Prem Shinde</p>
+      <p>© 2026 All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
